@@ -1,0 +1,20 @@
+{
+  "name": "CSH-WebNews-Push-Server",
+  "version": "1.0.0",
+  "description": "Push server for the WebNews Android application",
+  "main": "index.js",
+  "dependencies": {
+	"mongodb": "2.0.x",	
+	"mongoose": "4.1.x",
+	"node-gcm": "0.12.x"
+  }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zujko/CSH-WebNews-Push-Server.git"
+  },
+  "author": "zujko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zujko/CSH-WebNews-Push-Server/issues"
+  }
+}
