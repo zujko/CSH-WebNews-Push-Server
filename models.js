@@ -6,6 +6,7 @@
  */
 
 var mongoose = require('mongoose');
+var express = require('express');
 
 var userSchema = mongoose.Schema({
 	id: String,
@@ -15,3 +16,5 @@ var userSchema = mongoose.Schema({
 });
 
 var User = mongoose.model('User', userSchema);
+
+module.exports = User;

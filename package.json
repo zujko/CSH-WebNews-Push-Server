@@ -6,7 +6,8 @@
   "dependencies": {
 	"mongodb": "2.0.x",	
 	"mongoose": "4.1.x",
-	"node-gcm": "0.12.x"
+	"node-gcm": "0.12.x",
+	"express": "4.13.x"
   },
   "repository": {
     "type": "git",
